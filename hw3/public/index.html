@@ -1,0 +1,77 @@
+<!-- 
+    Blaise Bromley 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Reference to CSS file
+    <link rel="stylesheet" href="stylesheets/bromley24_pretty.css">
+    -->   
+    <script src="javascripts/stuff.js"></script>
+</head>
+    <body>
+        <!-- main title -->
+        <h1>Cheesecake Order Form</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/1200px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" 
+            alt="Cheescake Slice" width="150" height="145" 
+            style="vertical-align:left">
+        
+        <!-- div to separate sections -->
+        <div id="div-1">
+            <!-- table to sepparate quantity select and radio options -->
+            <table id="table1">
+                <tr>
+                    <!-- table headings -->
+                    <th><p>Quantity</p></th>
+                    <th><p>Topping</p></th>
+                </tr>
+                <tr>
+                    <td>
+                        <form>
+                            <!-- dropdown selector -->
+                            <select id="selection">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form id="radio">
+                            <!-- dropdown selector -->
+                            <input type="radio" name="topping"/>Plain<br/>
+                            <input type="radio" name="topping"/>Cherry<br/>
+                            <input type="radio" name="topping"/>Chocolate<br/>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="div-2">
+            <!-- text box
+                 placed inside span to make 'Notes' be closer to box -->
+            <form id="notesForm">
+                <span>Notes:<br/><textarea id="textbox" name="textbox" rows="4" cols="40" 
+                    placeholder="Enter any special instructions here."></textarea></span> 
+                <!-- button -->
+                <!-- old button code
+                    <button>Order</button> -->
+                <br><input id="textButton" type="submit" value="Order" onclick="formdata()"/></br>
+            </form>
+        </div>
+        <!-- Order totals header and unordered list -->
+        <h2>Total Orders Last Month</h2>
+            <ul>
+                <li>
+                    <span>11 cherry</span>
+                </li>
+                <li>
+                    <span>17 chocolate</span>
+                </li>
+                <li>
+                    <span>31 plain</span>
+                </li>
+            </ul>
+    </body>
+</html>
+

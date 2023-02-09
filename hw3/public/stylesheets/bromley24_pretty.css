@@ -1,0 +1,48 @@
+/* 
+ * Blaise Bromley
+ *
+ * Sorry it's kinda ugly, still. I realized this is my least fav. part
+ *
+*/
+
+/* body text */
+body {
+    background: linear-gradient(to bottom, skyblue 0% 54.5%, sandybrown 54.5% 98%); 
+}
+
+/* main title */
+h1 {
+    color: palevioletred;
+    text-align:left;
+}
+
+/* heading at bottom */
+h2 {
+    color: saddlebrown;
+    text-align:left;
+}
+
+/* table subheadings */
+p {
+    color: palevioletred;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* text box stuff */ 
+textarea {
+    font-family: "Brush Script MT";
+    color: black;
+    font-size: 20px;
+    background-color: palegoldenrod;
+}
+
+/* order */
+button {
+    background-color: pink;
+}
+
+/* select dropdown */
+select {
+    background-color: pink;
+}
